@@ -3,7 +3,7 @@ var travelReport = (function () {
 
     "use strict";
     console.log("App Started...")
-
+    //Numerous functions that replace empty <p> tags in my html
     function replaceIntroParagraph() {
         console.log("replaceIntroParagraph");
         var IntroParagraph;
@@ -96,7 +96,7 @@ var travelReport = (function () {
     }
 
 
-
+    //call all my replace paragraph functions to insert text
     replaceIntroParagraph()
     replaceFolegandros()
     replaceAlonissos()
@@ -108,12 +108,13 @@ var travelReport = (function () {
     replaceHydra()
     replaceGavdos()
 
+    //create Variables to get inputs from user
     var firstname = document.getElementById("firstName");
-    
+
     var lastname = document.getElementById("lastName");
-    
+
     var email = document.getElementById("email");
-    
+
     var comments = document.getElementById("comments");
 
     var button = document.getElementById("button");
